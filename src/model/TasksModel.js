@@ -9,6 +9,6 @@ const DatabaseSchema= mongoose.Schema({
 
 },{versionKey:false});
 
-const OTPModel=mongoose.model('otps',DatabaseSchema)
+const TasksModel=mongoose.model('tasks',DatabaseSchema)
 
-module.exports=OTPModel;
+module.exports=TasksModel;
