@@ -1,8 +1,8 @@
 const mongoose=require('mongoose');
 
 const DatabaseSchema= mongoose.Schema({
-    title:{type:String,require:true},
-    description:{type:String,require:true},
+    email:{type:String,require:true},
+    otp:{type:String,require:true},
     status:{type:String,require:true},
 
 
