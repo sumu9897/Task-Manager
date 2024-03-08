@@ -7,7 +7,7 @@ const DatabaseSchema= mongoose.Schema({
 
 
 
-},{versionKey:false});
+},{timestamps:true,versionKey:false});
 
 const OTPModel=mongoose.model('otps',DatabaseSchema)
 

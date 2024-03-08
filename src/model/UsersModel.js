@@ -8,7 +8,7 @@ const DatabaseSchema= mongoose.Schema({
     password:{type:String,require:true},
 
 
-},{versionKey:false});
+},{timestamps:true,versionKey:false});
 
 const UsersModel=mongoose.model('users',DatabaseSchema)
 
