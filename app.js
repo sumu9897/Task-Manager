@@ -24,7 +24,7 @@ app.use(limiter);
 let URL="mongodb://localhost:27017/taskmern"
 let OPTION={user:"",pass:"",autoIndex:true}
 mongoose.connect(URL,OPTION).then((res)=>{
-    console.log(("Database Connceted"))
+    console.log(("Database Connected"))
 }).catch((err)=> {
     console.log(err)
 })
