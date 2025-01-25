@@ -1,9 +1,20 @@
-1. File Folder Creation
-2. Package Installation
-3. app.js configure
-4. Run The Server
-5. User Model Creation
-6. Task
-7. OTP Model
-8. Email Utility
-9. User Registration
+1.  Project File Structure
+2.  Project Package
+3.  Route Config
+4.  App.js Config
+5.  PostMan Initial Config
+6.  Email Credential Config
+7.  Token Encode Decode Credential Config
+8.  Write Model properties
+9.  Registration API
+10. Login API
+11. ProfileDetails API
+12. ProfileUpdate API
+13. EmailVerify API
+14. CodeVerify API
+15. ResetPassword API
+16. CreateTask API
+17. UpdateTaskStatus API
+18. TaskListByStatus API
+19. DeleteTask API
+20. CountTask
