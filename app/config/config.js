@@ -1,5 +1,5 @@
 export const PORT=5050
-export const DATABASE=`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.rmec6.mongodb.net/?retryWrites=true&w=majority`;
+export const DATABASE="mongodb://localhost:27017/"
 
 export const JWT_KEY=`${process.env.ACCESS_TOKEN_SECRET}`
 export const JWT_EXPIRE_TIME=30*24*60*60
